@@ -43,7 +43,7 @@ TextureImporter:
     second: self_btn
   - first:
       213: 4284719712505831473
-    second: gameview_sheet_13
+    second: short_blank_action_btn
   - first:
       213: 3091709360445804127
     second: file_btn
@@ -451,9 +451,9 @@ TextureImporter:
       name: self_btn
       rect:
         serializedVersion: 2
-        x: 344
+        x: 349
         y: 57
-        width: 55
+        width: 50
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -469,12 +469,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gameview_sheet_13
+      name: short_blank_action_btn
       rect:
         serializedVersion: 2
-        x: 287
+        x: 292
         y: 40
-        width: 55
+        width: 50
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -493,9 +493,9 @@ TextureImporter:
       name: file_btn
       rect:
         serializedVersion: 2
-        x: 344
+        x: 349
         y: 40
-        width: 55
+        width: 50
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -556,9 +556,9 @@ TextureImporter:
       name: move_btn
       rect:
         serializedVersion: 2
-        x: 344
+        x: 349
         y: 23
-        width: 55
+        width: 50
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
