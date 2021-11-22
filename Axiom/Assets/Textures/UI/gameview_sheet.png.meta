@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 3655249567650549863
-    second: gameview
+    second: Gameview
   - first:
       213: 8913598897954684580
     second: Viewport
@@ -13,10 +13,76 @@ TextureImporter:
     second: Map
   - first:
       213: -7627326593855708881
-    second: Button
+    second: look_btn
   - first:
       213: 7997787988180181470
-    second: Pointer
+    second: take_btn
+  - first:
+      213: 1506661172105384087
+    second: open_btn
+  - first:
+      213: 8513516631950429059
+    second: close_btn
+  - first:
+      213: 4051667132799324157
+    second: use_btn
+  - first:
+      213: 8071446056794444425
+    second: punch_btn
+  - first:
+      213: 2584464479880260599
+    second: drop_btn
+  - first:
+      213: -7029809431132761293
+    second: talk_btn
+  - first:
+      213: -2539273351635398650
+    second: self_btn
+  - first:
+      213: 4906675307099608085
+    second: self_btn
+  - first:
+      213: 4284719712505831473
+    second: gameview_sheet_13
+  - first:
+      213: 3091709360445804127
+    second: file_btn
+  - first:
+      213: 2480986664481202707
+    second: pointer
+  - first:
+      213: 3706097948509453237
+    second: blank_action_btn
+  - first:
+      213: -6290872023868157603
+    second: move_btn
+  - first:
+      213: 8619306031778993387
+    second: button_1
+  - first:
+      213: -6890480872712329450
+    second: button_2
+  - first:
+      213: -2759587953897585907
+    second: nav_button_1
+  - first:
+      213: -8263899224930469165
+    second: nav_button_2
+  - first:
+      213: 256847786819469911
+    second: left_arrow_button_1
+  - first:
+      213: 8552253711824752254
+    second: left_arrow_button_2
+  - first:
+      213: 4074949934102662036
+    second: right_arrow_button_1
+  - first:
+      213: -7637261729892367941
+    second: right_arrow_button_2
+  - first:
+      213: -263990964130208144
+    second: InventoryView
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -82,7 +148,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -94,7 +160,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -106,7 +172,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -118,7 +184,7 @@ TextureImporter:
     buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -130,13 +196,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gameview
+      name: Gameview
       rect:
         serializedVersion: 2
         x: 2
-        y: 30
+        y: 0
         width: 256
-        height: 224
+        height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,7 +220,7 @@ TextureImporter:
       name: Viewport
       rect:
         serializedVersion: 2
-        x: 260
+        x: 287
         y: 142
         width: 112
         height: 112
@@ -175,7 +241,7 @@ TextureImporter:
       name: Map
       rect:
         serializedVersion: 2
-        x: 374
+        x: 401
         y: 213
         width: 44
         height: 41
@@ -193,10 +259,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button
+      name: look_btn
       rect:
         serializedVersion: 2
-        x: 260
+        x: 287
         y: 125
         width: 55
         height: 15
@@ -214,15 +280,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pointer
+      name: take_btn
       rect:
         serializedVersion: 2
-        x: 317
+        x: 344
         y: 125
-        width: 9
+        width: 55
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,6 +296,468 @@ TextureImporter:
       bones: []
       spriteID: ed1ad581dc9ddfe60800000000000000
       internalID: 7997787988180181470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open_btn
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 108
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79017387a5cb8e410800000000000000
+      internalID: 1506661172105384087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: close_btn
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 108
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b09cc2546162670800000000000000
+      internalID: 8513516631950429059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: use_btn
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 91
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff01a66ac96a3830800000000000000
+      internalID: 4051667132799324157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_btn
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 91
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982d5fe9c69830070800000000000000
+      internalID: 8071446056794444425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_btn
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 74
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fba0e950ccddd320800000000000000
+      internalID: 2584464479880260599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talk_btn
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 74
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33314a26199117e90800000000000000
+      internalID: -7029809431132761293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameview_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 57
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60018202750b2ccd0800000000000000
+      internalID: -2539273351635398650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: self_btn
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 57
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5145ad3f133081440800000000000000
+      internalID: 4906675307099608085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameview_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 40
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130260a80e1667b30800000000000000
+      internalID: 4284719712505831473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: file_btn
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 40
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e4f126845f7ea20800000000000000
+      internalID: 3091709360445804127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pointer
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 65
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31222ecf93c3e6220800000000000000
+      internalID: 2480986664481202707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blank_action_btn
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 23
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbb5bbc274be6330800000000000000
+      internalID: 3706097948509453237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move_btn
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 23
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5155e9893552b8a0800000000000000
+      internalID: -6290872023868157603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_1
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 68
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4919a3b2ded9770800000000000000
+      internalID: 8619306031778993387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 68
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617ab5257281060a0800000000000000
+      internalID: -6890480872712329450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_button_1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 68
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03cc797069f3b9d0800000000000000
+      internalID: -2759587953897585907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nav_button_2
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 68
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dab46e507bb05d80800000000000000
+      internalID: -8263899224930469165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_arrow_button_1
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 67
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75248b683b1809300800000000000000
+      internalID: 256847786819469911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_arrow_button_2
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 67
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e845a6075bfa670800000000000000
+      internalID: 8552253711824752254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right_arrow_button_1
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 67
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bc0b300612d8830800000000000000
+      internalID: 4074949934102662036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right_arrow_button_2
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 67
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1841dabeef20690800000000000000
+      internalID: -7637261729892367941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InventoryView
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 83
+        width: 109
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0762b17ed9d165cf0800000000000000
+      internalID: -263990964130208144
       vertices: []
       indices: 
       edges: []
